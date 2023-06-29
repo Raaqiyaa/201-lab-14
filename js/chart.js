@@ -14,7 +14,7 @@ appState.loadVoteDataFromLocalStorage = function() {
     }
 }
  //Create a data object for chart.js using your AppState's allProducts array.
-For let (i = 0; i < 5; i++) {
+for let (i = 0; i < 5; i++) {
     let newProduct = new Product(newProducts[i].name)
     newProduct.push(newProduct)
 }
